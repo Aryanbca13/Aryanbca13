@@ -10,7 +10,7 @@ body{
 
 }
 .main_container{
-   width: 1440px;
+    width: 1440px;
     padding: 10px;
     margin: 0 auto;
 }
@@ -197,4 +197,44 @@ button:hover{
    
 
     
+}
+@media (max-width :767px){
+    .family_img{
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+    
+    
+
+    }
+    .container{
+        flex-direction: column;
+        text-align: center;
+        max-width: fit-content;
+    }
+}
+@media (max-width :767px){
+    .insure_footer{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .header{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: auto;
+
+        
+        /* flex-direction: column-reverse; */
+    }
+    .main_container{
+        width: 700px;
+
+    }
 }
